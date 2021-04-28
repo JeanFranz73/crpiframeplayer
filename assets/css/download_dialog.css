@@ -63,6 +63,7 @@
 .partdditem {
     display: table-cell;
     vertical-align: middle;
+    text-align: right;
     margin: 6%;
 }
 .not-copyable {
@@ -74,12 +75,18 @@
 	user-select: none;
 }
 
+.hdlabel {
+    font-style: italic;
+    font-family: 'SFProDisplay-Semibold';
+    color: #eee;
+}
+
 .size {
     color: #eee;
     font-family: SFProDisplay-Regular;
     font-size: 15px;
     text-align: left;
-    width: 14%;
+    width: 25%;
     opacity: .7;
 }
 
@@ -97,7 +104,7 @@
     font-size: 15px;
     width: 13%;
     text-align: left;
-    padding-left: 20px;
+    padding: 0 5px;
 }
 
 .quality > sup {
